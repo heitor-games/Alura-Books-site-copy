@@ -25,4 +25,5 @@ jobs:
     - name: Build
       run: |
         npm install -y
-        npx webpack
+        npm run build
+        serve -s build
